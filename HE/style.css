@@ -314,7 +314,7 @@ color: grey;
 }
 
 .four-image img{
-    width: 140px;
+    width: 134px;
     height: 109px;
      transition: .4s;
       border-radius: 2.5px;
@@ -434,6 +434,9 @@ color: grey;
     padding-left: 28px;
     
 }
+.four-image img{
+    margin-left: 59px;
+}
 }
 
 
@@ -486,8 +489,8 @@ color: grey;
     padding-bottom: 30px ;
 }
 .lo img{
-    width: 170px;
-    height: 135px;
+    width: 169px;
+    height: 130px;
     transition: .4s;
     border-radius: 4px;
 }
@@ -534,7 +537,7 @@ border-radius: 5px;
 position: relative;
 margin: 15px 0; 
 bottom: 6px;
-/* bottom: 12px; */
+
 }
 .footer3 p{
      margin :15px 0;
