@@ -341,10 +341,10 @@ color: grey;
     padding-bottom:100px ;
 }
 
-.ourteam img {
+/* .ourteam img {
     width:125px;
      border-radius: 3px;
-}
+} */
 
 /* .portfolio{
     display: block;
@@ -408,6 +408,10 @@ color: grey;
     padding-top: 280px;
     padding-right:0;
 }
+
+.container{
+    background-repeat: no-repeat;
+}
 .space1{
     margin:0;
     margin-left: 6px;
@@ -429,16 +433,12 @@ color: grey;
 }
 .flex{ flex-wrap: wrap;
     justify-content: center;
-    /* flex-direction: column; */
-}
-/* .k img{
-    margin-left: 185px;
-} */
-.space{
-    padding-left: 28px;
-    
+
 }
 
+.space{
+    padding-left: 28px;   
+}
 }
 
 
@@ -449,6 +449,9 @@ color: grey;
     .li{
         padding: 15px 13px;
     }
+    .container{
+        background-repeat: no-repeat;
+    }
     
     .name{
         width :73%;
@@ -456,13 +459,7 @@ color: grey;
     .flex{
         flex-wrap: wrap;
     }
-     /* .k img{ 
-    
-        margin-left: 4%;
-    }  */
-    /* .x{
-      display: block;
-    } */
+
    .footer1{
        margin-bottom: 21px;
    }
@@ -519,7 +516,7 @@ color: rgb(66, 66, 66);
     padding: 4%;
 }
 #s{
-    margin-top: 80px;
+    margin-top: 71px;
     padding:4%;
 }
 span h4{
@@ -567,5 +564,9 @@ bottom: 6px;
 }
 .footer2 p:hover{
     color: #286aa8;
+    cursor: pointer;
+}
+ .copyright:hover,.fab:hover{
+    color: #1154b8;
     cursor: pointer;
 }
