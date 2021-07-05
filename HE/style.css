@@ -82,32 +82,47 @@ a{color :rgb(255, 255, 255);
 }
 .container{
     width: 100%; 
+    height: 95%; 
     border-radius: 12px;
-    height: 100%;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position:center;
-    background-attachment: scroll;
+    background-repeat: no-repeat; justify-content: center;
+    align-items: center;
+    background-position:center; display: flex;
+    /* background-attachment: scroll; */
     background-image: url("images/alan-j-hendry-zVf-R-r3szw-unsplash.jpg");
 
 }
+.container:before{ 
+    content: "";
+    position: absolute;
+    display: block;
+    background:#000;
+    opacity: 0.3;
+    top: 0;
+    bottom: 0;
+    right:0;
+    left: 0;
+   
+}
+
 .banner-text{
-    padding-top: 180px;
-    padding-right:13%;
-    text-align:right;
-    color: rgb(250, 250, 250);
-font-size: 2rem;
+ color: #ffffff;
+ font-size: 2rem;
+ z-index:3;
 
 }
-.space{
+/* .space{
      /* background-color: cornsilk; */
-     margin-right:300px;
+     /* margin-right:300px; */
       /* margin-top:-40px; */
-}
-.space2{
-     margin-right:175px;
+/* } */ */
+/* .space2{
+     /* margin-right:175px; */
      /* margin-top:-20px; */
-}
+/* } */ */
+
+
+
 /* ----------------headerends------------------- */
 #s{
     color: #fff; text-align: center;
@@ -418,7 +433,8 @@ color: grey;
     width: 100%;
     margin: 10px 0;
 }
-.two-box p{ text-align: justify;
+.two-box p{ 
+    text-align: justify;
 }
 .footer-icon{
     padding: 0;
@@ -434,6 +450,7 @@ color: grey;
 .space{
     padding-left: 28px;   
 }
+
 }
 
 
